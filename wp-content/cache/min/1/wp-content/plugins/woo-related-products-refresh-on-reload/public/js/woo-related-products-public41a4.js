@@ -1,0 +1,2 @@
+(function($){'use strict';$(document).ready(function(){var owl=$("#woorelatedproducts");owl.owlCarousel({items:3,itemsDesktop:[1000,3],itemsDesktopSmall:[900,3],itemsTablet:[600,2],autoPlay:3500,itemsMobile:!1,});$(".next").click(function(){owl.trigger('owl.next')})
+$(".prev").click(function(){owl.trigger('owl.prev')})})})(jQuery)
